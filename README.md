@@ -26,6 +26,10 @@ Depends:
 	
 ## Usage
 
+### Online shiny app using public data
+
+Available here https://sachsmc.shinyapps.io/mrbrowse2/
+
 ### Run the shiny app
 
 Clone and unzip the repository, and run the following in R from the mrbrowse working directory: 
