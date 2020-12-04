@@ -4,7 +4,7 @@ age_menarche	Age at menarche		ReproGen	28436984	2017	EUR	1000G	https://www.repro
 age_menopause	Age at menopause		ReproGen	26414677	2015	EUR	hapmap2	https://www.reprogen.org/	https://www.reprogen.org/data_download.html
 ischemic_stroke	Ischemic stroke		MEGASTROKE	29531354	2018	EUR	1000g_ph1	http://megastroke.org/	http://megastroke.org/
 all_stroke	All stroke		MEGASTROKE	29531354	2018	EUR	1000g_ph1	http://megastroke.org/	http://megastroke.org/
-alzheimer	Alzheimer's disease		IGAP	24162737	2013	EUR	1000g_ph1	http://web.pasteur-lille.fr/en/recherche/u744/igap/igap_download.php	http://www.pasteur-lille.fr/en/recherche/u744/igap/igap_download.php
+alzheimer	Alzheimer		IGAP	24162737	2013	EUR	1000g_ph1	http://web.pasteur-lille.fr/en/recherche/u744/igap/igap_download.php	http://www.pasteur-lille.fr/en/recherche/u744/igap/igap_download.php
 asthma	Asthma		TAGC	29273806	2018	EUR	hapmap2	NA	ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/DemenaisF_29273806_GCST005212/
 AtD	atopic dermatitis		EAGLE	26482879	2015	Mixed	1000g_ph1	https://data.bris.ac.uk/data/dataset/28uchsdpmub118uex26ylacqm	https://data.bris.ac.uk/data/dataset/28uchsdpmub118uex26ylacqm
 atrial_fibrillation	Atrial fibrillation		AFGenPlus	30061737	2018	EUR	hrc	http://csg.sph.umich.edu/willer/public/afib2018/	http://csg.sph.umich.edu/willer/public/afib2018/
@@ -13,7 +13,7 @@ body_fatpct	Body fat %		GIANT	26833246	2016	Mixed	hapmap2	https://walker05.u.hpc
 bone_mineral_density	Bone mineral density		GEFOS	28869591	2017	EUR	1000G	http://www.gefos.org/	http://www.gefos.org/?q=content/ukbb-ebmd-gwas-data-release-2017
 BreastCancer	Breast cancer	Michailidou	BCAC	29059683	2017	EUR	1000g_ph3	http://bcac.ccge.medschl.cam.ac.uk	http://bcac.ccge.medschl.cam.ac.uk/bcacdata/oncoarray/gwas-icogs-and-oncoarray-summary-results/
 cad	Coronary Heart Disease		CardiogramPlusC4D	26343387	2015	Mixed	1000g_ph1	http://www.cardiogramplusc4d.org	http://www.cardiogramplusc4d.org/data-downloads/
-CD	Crohn's disease	de Lange	NA	28067908	2017	EUR			ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/deLangeKM_28067908_GCST004132
+CD	Crohns disease	de Lange	NA	28067908	2017	EUR			ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/deLangeKM_28067908_GCST004132
 CeliacDisease	Celiac disease	Trynka	NA	22057235	2011	EUR			
 corrected_insulin_response	corrected insulin response		MAGIC	24699409	2014	EUR	hapmap2	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
 depressive_symptoms	Depressive symptoms		SSGAC	27089181	2016	EUR	1000G	https://www.thessgac.org/	https://www.thessgac.org/data

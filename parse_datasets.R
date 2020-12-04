@@ -3,6 +3,7 @@
 library(data.table)
 
 datapath <- "txtfiles"
+outpath <- "shinyapp"
 datanames <- list.files(datapath, pattern = "*.txt")
 
 qtlnames <- list.files(file.path(datapath, "pQTLs"))
@@ -22,7 +23,7 @@ dflist <- lapply(qtlnames, function(j) {
 })
 
 qtldf <- rbindlist(dflist, use.names = TRUE, fill = TRUE)
-save(qtldf, file = "qtldf.rda")
+save(qtldf, file = file.path(outpath, "qtldf.rda"))
 
 
 dflist2 <- lapply(ctnames, function(j) {
@@ -39,14 +40,14 @@ dflist2 <- lapply(ctnames, function(j) {
 })
 
 ctdf <- rbindlist(dflist2, use.names = TRUE, fill = TRUE)
-save(ctdf, file = "ctdf.rda")
+save(ctdf, file = file.path(outpath, "ctdf.rda"))
 
 
 qtlivres <- data.table(read.table(file.path(datapath, "Table_CVDI_pQTLs_R_shiny_app.txt"), sep = "\t", header = TRUE, stringsAsFactors = FALSE))
-save(qtlivres, file = "qtlivres.rda")
+save(qtlivres, file = file.path(outpath, "qtlivres.rda"))
 
 
 metadata <- data.table(read.table(file.path(datapath, "table_disease_outcomes_reference.txt"), sep = "\t", header = TRUE, stringsAsFactors = FALSE))
-save(metadata, file = "metadata.rda")
+save(metadata, file = file.path(outpath, "metadata.rda"))
 
 
