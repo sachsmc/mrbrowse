@@ -78,6 +78,18 @@ server <- function(input, output, session) {
 
   })
 
+  output$downloadPlotCT <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposurect, collapse = "-"),
+            "-effect-on-", input$outcomect, "-combined-snps.pdf", sep = "")
+    },
+    content = function(file) {
+      ggsave(filename = file, plot = PlotCT(),
+             width = as.numeric(input$wp1),
+             height = as.numeric(input$hp1), units = "cm")
+    }
+  )
+
   PlotCT2 <- reactive({
 
 
@@ -101,6 +113,18 @@ server <- function(input, output, session) {
 
   })
 
+  output$downloadPlotCT2 <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposurect, collapse = "-"),
+            "-effect-on-", input$outcomect, "-individual-snps.pdf", sep = "")
+    },
+    content = function(file) {
+      ggsave(filename = file, plot = PlotCT2(),
+             width = as.numeric(input$wp2),
+             height = as.numeric(input$hp2), units = "cm")
+    }
+  )
+
   snpTabCT <- reactive({
 
     x <- ctdf[outcome == input$outcomect]
@@ -121,6 +145,15 @@ server <- function(input, output, session) {
 
   }, escape = FALSE)
 
+  output$downloadTabCT <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposurect, collapse = "-"),
+            "-effect-on-", input$outcomect, "-table.xlsx", sep = "")
+    },
+    content = function(file) {
+      write.xlsx(snpTabCT(), file = file)
+    }
+  )
 
 
   ## qtl tab
@@ -184,6 +217,18 @@ server <- function(input, output, session) {
 
   })
 
+  output$downloadPlotQTL <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposureqtl, collapse = "-"),
+            "-effect-on-", input$outcomeqtl, "-combined-snps.pdf", sep = "")
+    },
+    content = function(file) {
+      ggsave(filename = file, plot = PlotQTL(),
+             width = as.numeric(input$wp3),
+             height = as.numeric(input$hp3), units = "cm")
+    }
+  )
+
 
   PlotQTL2 <- reactive({
 
@@ -206,6 +251,18 @@ server <- function(input, output, session) {
 
   })
 
+  output$downloadPlotQTL2 <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposureqtl, collapse = "-"),
+            "-effect-on-", input$outcomeqtl, "-individual-snps.pdf", sep = "")
+    },
+    content = function(file) {
+      ggsave(filename = file, plot = PlotQTL2(),
+             width = as.numeric(input$wp4),
+             height = as.numeric(input$hp4), units = "cm")
+    }
+  )
+
   qtlTabCT <- reactive({
 
 
@@ -226,11 +283,21 @@ server <- function(input, output, session) {
   }, escape = FALSE)
 
 
+  output$downloadqtlTabCT <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposureqtl, collapse = "-"), "-effect-on-", input$outcomeqtl, "-table.xlsx", sep = "")
+    },
+    content = function(file) {
+      write.xlsx(qtlTabCT(), file = file)
+    }
+  )
+
+
   ivTabQT <- reactive({
 
     x2 <- qtlivres
     if(!is.null(input$exposureqtl)) {
-      x2 <- qtlivres[Protein %in% input$exposureqtl]
+      x2 <- qtlivres[ProteinCode %in% input$exposureqtl]
     }
     x2[, snplink := sprintf("<a href='https://www.ncbi.nlm.nih.gov/snp/%s' target='_blank'>%s</a>", SNP, SNP)]
     x2
@@ -244,5 +311,14 @@ server <- function(input, output, session) {
 
 
   }, escape = FALSE)
+
+  output$downloadivTabQT <- downloadHandler(
+    filename = function() {
+      paste(paste(input$exposureqtl, collapse = "-"), "-snp-ivs-table.xlsx", sep = "")
+    },
+    content = function(file) {
+      write.xlsx(ivTabQT(), file = file)
+    }
+  )
 
 }
