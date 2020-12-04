@@ -1,0 +1,49 @@
+FileLabel	Phenotype	FirstAuthor	consortium	pmid	year	ancestry	coverage	main_page	download_page
+2h_glucose	2-h glucose		MAGIC	22885924	2012	EUR	metabochip	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
+age_menarche	Age at menarche		ReproGen	28436984	2017	EUR	1000G	https://www.reprogen.org/	https://www.reprogen.org/data_download.html
+age_menopause	Age at menopause		ReproGen	26414677	2015	EUR	hapmap2	https://www.reprogen.org/	https://www.reprogen.org/data_download.html
+ischemic_stroke	Ischemic stroke		MEGASTROKE	29531354	2018	EUR	1000g_ph1	http://megastroke.org/	http://megastroke.org/
+all_stroke	All stroke		MEGASTROKE	29531354	2018	EUR	1000g_ph1	http://megastroke.org/	http://megastroke.org/
+alzheimer	Alzheimer's disease		IGAP	24162737	2013	EUR	1000g_ph1	http://web.pasteur-lille.fr/en/recherche/u744/igap/igap_download.php	http://www.pasteur-lille.fr/en/recherche/u744/igap/igap_download.php
+asthma	Asthma		TAGC	29273806	2018	EUR	hapmap2	NA	ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/DemenaisF_29273806_GCST005212/
+AtD	atopic dermatitis		EAGLE	26482879	2015	Mixed	1000g_ph1	https://data.bris.ac.uk/data/dataset/28uchsdpmub118uex26ylacqm	https://data.bris.ac.uk/data/dataset/28uchsdpmub118uex26ylacqm
+atrial_fibrillation	Atrial fibrillation		AFGenPlus	30061737	2018	EUR	hrc	http://csg.sph.umich.edu/willer/public/afib2018/	http://csg.sph.umich.edu/willer/public/afib2018/
+bmi	BMI		GIANT	25673413	2015	EUR	hapmap2	http://portals.broadinstitute.org/collaboration/giant/	http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files
+body_fatpct	Body fat %		GIANT	26833246	2016	Mixed	hapmap2	https://walker05.u.hpc.mssm.edu/	https://walker05.u.hpc.mssm.edu/
+bone_mineral_density	Bone mineral density		GEFOS	28869591	2017	EUR	1000G	http://www.gefos.org/	http://www.gefos.org/?q=content/ukbb-ebmd-gwas-data-release-2017
+BreastCancer	Breast cancer	Michailidou	BCAC	29059683	2017	EUR	1000g_ph3	http://bcac.ccge.medschl.cam.ac.uk	http://bcac.ccge.medschl.cam.ac.uk/bcacdata/oncoarray/gwas-icogs-and-oncoarray-summary-results/
+cad	Coronary Heart Disease		CardiogramPlusC4D	26343387	2015	Mixed	1000g_ph1	http://www.cardiogramplusc4d.org	http://www.cardiogramplusc4d.org/data-downloads/
+CD	Crohn's disease	de Lange	NA	28067908	2017	EUR			ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/deLangeKM_28067908_GCST004132
+CeliacDisease	Celiac disease	Trynka	NA	22057235	2011	EUR			
+corrected_insulin_response	corrected insulin response		MAGIC	24699409	2014	EUR	hapmap2	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
+depressive_symptoms	Depressive symptoms		SSGAC	27089181	2016	EUR	1000G	https://www.thessgac.org/	https://www.thessgac.org/data
+egfr_creatinine	eGFR (creatinine)		CKDGEN	28452372	2017	EUR	1000g_ph1	http://ckdgen.imbi.uni-freiburg.de/	http://ckdgen.imbi.uni-freiburg.de/
+egfr_cystatin_c	eGFR (cystatin C)		CKDGEN	28452372	2017	EUR	1000g_ph1	http://ckdgen.imbi.uni-freiburg.de/	http://ckdgen.imbi.uni-freiburg.de/
+fasting_glucose	Fasting glucose		MAGIC	22581228	2012	EUR	hapmap2	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
+fasting_insulin	Fasting insulin		MAGIC	22581228	2012	EUR	hapmap2	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
+hba1c	HbA1C		MAGIC	28898252	2017	EUR	hapmap2	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
+hdl	HDL cholesterol		GLGC	24097068	2013	EUR	hapmap2	http://lipidgenetics.org/	http://csg.sph.umich.edu/willer/public/lipids2013/
+heart_rate	Heart rate		HRgene	23583979	2013	EUR	hapmap2	https://walker05.u.hpc.mssm.edu/	https://walker05.u.hpc.mssm.edu/
+IBD	Inflammatory bowel disease	de Lange	NA	28067908	2017	EUR			ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/deLangeKM_28067908_GCST004131
+ibd	Inflammatory bowel disease	Liu	IIBDGC	26192919	2015	EUR	1000g_ph1	https://www.ibdgenetics.org	https://www.ibdgenetics.org/downloads.html
+isi_ogtt	Insulin sensitivity by OGTT		MAGIC	27416945	2016	EUR	hapmap2	https://www.magicinvestigators.org/	https://www.magicinvestigators.org/downloads/
+ldl	LDL cholesterol		GLGC	24097068	2013	EUR	hapmap2	http://lipidgenetics.org/	http://csg.sph.umich.edu/willer/public/lipids2013/
+major_depressive_disorder	Major depressive disorder		PGC	29700475	2018	EUR	1000g_ph1	https://www.med.unc.edu/pgc/	https://www.med.unc.edu/pgc/results-and-downloads/mdd/
+NEW_bmi	BMI		GIANT	30239722	2018	EUR	hrc	http://portals.broadinstitute.org/	https://zenodo.org/record/1251813#.XG0xTC2Q3UJ
+bone_fracture	Bone fracture		GEFOS	30598549	2019	EUR	hrc	http://www.gefos.org	http://www.gefos.org/?q=content/data-release-2018
+NEW_bone_mineral_density	Bone mineral density		GEFOS	30598549	2019	EUR	hrc	http://www.gefos.org	http://www.gefos.org/?q=content/data-release-2018
+NEW_t2d	Type 2 diabetes		DIAGRAM	30297969	2018	EUR	hrc	http://diagram-consortium.org/	http://diagram-consortium.org/downloads.html
+NEW_whradjbmi	Waist-hip ratio adj. BMI		GIANT	30239722	2018	EUR	hrc	http://portals.broadinstitute.org/	https://zenodo.org/record/1251813#.XG0xTC2Q3UJ
+primary_biliary_cirrhosis	Primary biliary cirrhosis		NONE	26394269	2015	EUR	hapmap3	https://www.immunobase.org/	https://www.immunobase.org/downloads/protected_data/GWAS_Data/
+ProstateCancer	Prostate cancer		PRACTICAL	29892016	2018	EUR	1000G	http://practical.icr.ac.uk/	http://practical.icr.ac.uk/blog/?page_id=8088
+RA	Rheumatoid Arthritis	Okada	NONE	24390342	2014	EUR	1000g_ph1	http://plaza.umin.ac.jp/~yokada/datasource/software.htm	http://plaza.umin.ac.jp/~yokada/datasource/software.htm
+schizophrenia	Schizophrenia		PGC	29906448	2018	EUR	1000g_ph3	https://www.med.unc.edu/pgc/	https://www.med.unc.edu/pgc/results-and-downloads/scz-bip/
+sleep_duration	Sleep duration		NONE	27494321	2016	EUR	1000G	http://www.t2diabetesgenes.org/data/	http://www.t2diabetesgenes.org/data/
+SLE	systemic lupus erythematosus		NONE	26502338	2015	EUR	1000G	https://www.immunobase.org/	https://www.immunobase.org/downloads/protected_data/GWAS_Data/
+T1D	Type 1 diabetes	Onengut-Gumuscu	 Type 1 Diabetes Genetics Consortium	25751624	2015	EUR			
+t2d	Type 2 diabetes		DIAGRAM	28566273	2017	EUR	1000g_ph1	http://diagram-consortium.org/	http://diagram-consortium.org/downloads.html
+tc	Total cholesterol		GLGC	24097068	2013	EUR	hapmap2	http://lipidgenetics.org/	http://csg.sph.umich.edu/willer/public/lipids2013/
+tg	Triglycerides		GLGC	24097068	2013	EUR	hapmap2	http://lipidgenetics.org/	http://csg.sph.umich.edu/willer/public/lipids2013/
+UC	Ulcerative colitits	de Lange	NA	28067908	2017	EUR			ftp://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/deLangeKM_28067908_GCST004133
+whradjbmi	Waist-hip ratio adj. BMI		GIANT	25673412	2015	EUR	hapmap2	http://portals.broadinstitute.org/collaboration/giant/	http://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files
+insulin_secretion	Insulin secretion								
